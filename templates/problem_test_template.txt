@@ -1,0 +1,38 @@
+# Test file for problem NUMBER
+from problems.problem_NUMBER.problem import answer
+
+
+def test() -> tuple:
+    """ 
+    Test for problem. 
+
+    Args:
+        None
+
+    Returns:
+        tuple: The number of passing tests, the total number of tests
+    """
+
+    correct = 0
+    num_tests = 0
+    for test_func in [test_1]:
+        if test_func():
+            correct += 1
+        num_tests += 1
+
+    return (correct, num_tests)
+    
+
+def test_1() -> bool:
+    try:
+        answer()
+
+        assert True
+        
+        return True
+    except (AssertionError, Exception):
+        return False
+
+
+if __name__ == "__main__":
+    test()
