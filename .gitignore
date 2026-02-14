@@ -1,2 +1,6 @@
+# Python
 *.pyc*
 .python-version
+
+# VSCode
+settings.json
