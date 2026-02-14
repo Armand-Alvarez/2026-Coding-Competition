@@ -20,13 +20,10 @@ _In this problem, your task is to simply print 'Hello Field Engineers'._
 
 ## Sample:
 
-| Input | Print                  |
-| ----- | ---------------------- |
-| None  | 'Hello Field Engineers |
+| Input | Print                   |
+| ----- | ----------------------- |
+| None  | 'Hello Field Engineers' |
 
-## Explanation:
+### Explanation:
 
 There is no input to the function, we print 'Hello Field Engineers'.
-
-
----

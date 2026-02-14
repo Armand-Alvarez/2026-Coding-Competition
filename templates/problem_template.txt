@@ -1,8 +1,31 @@
-## # - NAME
+#   # NUMBER - NAME
 
-# DESC
+#   ## Problem Statement
 
-#> Note: 
+
+#   _DESC_
+
+
+#   > Note: NOTES
+
+#   ## Input Format: 
+#   - None
+
+#   ## Output Format:
+#   - return None
+    
+#   ## Constraints:
+#   - None
+
+#   ## Sample:
+
+#   | Input | Output |
+#   | ----- | ---------------------- |
+#   | None  | None |
+
+#   ### Explanation:
+
+#   None
 
 
 # Write your code in the function labeled `problem()` below
