@@ -4,7 +4,7 @@
 
 # Note: Find a backup of this file in the Backups directory
 
-from tests.test_1 import test as t1
+from tests.test_01 import test as t1
 
 
 all_tests = [t1]
