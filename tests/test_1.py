@@ -1,5 +1,5 @@
 # Test file for problem 001
-from problem_001.submission import answer
+from problems.problem_1 import answer
 import sys
 from io import StringIO
 
