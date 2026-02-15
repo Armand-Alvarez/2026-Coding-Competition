@@ -8,8 +8,9 @@ from sys import argv
 
 from tests.test_01 import test as t1
 from tests.test_02 import test as t2
+from tests.test_03 import test as t3
 
-all_tests = [t1, t2]
+all_tests = [t1, t2, t3]
 
 
 def run_tests(problem_number: int = None) -> None:
