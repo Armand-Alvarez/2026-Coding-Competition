@@ -18,7 +18,6 @@ def test() -> tuple:
     correct = 0
     num_tests = len(tests)
     for test in tests:
-        print(test)
         if test_func(test[0], test[1]):
             correct += 1
 
