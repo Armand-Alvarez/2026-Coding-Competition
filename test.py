@@ -7,9 +7,10 @@
 from sys import argv
 
 from tests.test_01 import test as t1
+from tests.test_02 import test as t2
 
+all_tests = [t1, t2]
 
-all_tests = [t1]
 
 def run_tests(problem_number: int = None) -> None:
     """
