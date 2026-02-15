@@ -4,6 +4,8 @@
 
 # Note: Find a backup of this file in the Backups directory
 
+from sys import argv
+
 from tests.test_01 import test as t1
 
 
@@ -11,24 +13,21 @@ all_tests = [t1]
 
 def run_tests(problem_number: int = None) -> None:
     """
-    Run automated tests aginst the problem suite. 
+    Run automated tests aginst the problem suite.
 
-    Prints if you have a problem correct or not. 
+    Prints if you have a problem correct or not.
 
     Args:
         problem_number(int): Only run tests against this problem number
-    
-    Return: 
+
+    Return:
         None
     """
-
-    match problem_number:
-        
-        case 1:
-            t1()
-
-        case _:
-            run_all_tests()
+    if problem_number:
+        c, t = all_tests[problem_number - 1]()
+        print(f"You got {c} tests passing out of {t}")
+    else:
+        run_all_tests()
 
 
 def run_all_tests() -> None:
@@ -46,11 +45,14 @@ def run_all_tests() -> None:
         c, t = test()
         correct += c
         total += t
-    
+
     print(f"You got {correct} tests passing out of {total}")
 
 
 if __name__ == "__main__":
-    run_all_tests()
-
-
+    num = None
+    try:
+        num = int(argv[1])
+    except Exception:
+        pass
+    run_tests(num)
