@@ -29,7 +29,7 @@ def test_func(input, output) -> bool:
     try:
         assert answer(input) == output
         return True
-    except (AssertionError, Exception):
+    except AssertionError, Exception:
         return False
 
 

@@ -5,8 +5,8 @@ from io import StringIO
 
 
 def test() -> tuple:
-    """ 
-    Test for problem. 
+    """
+    Test for problem.
 
     Args:
         None
@@ -23,22 +23,22 @@ def test() -> tuple:
         num_tests += 1
 
     return (correct, num_tests)
-    
+
 
 def test_1() -> bool:
     try:
         # Capture stdout
         old_stdout = sys.stdout
         sys.stdout = StringIO()
-        
+
         answer()
-        
+
         output = sys.stdout.getvalue()
         sys.stdout = old_stdout
-        
+
         assert output.startswith("Hello Field Engineers")
         return True
-    except (AssertionError, Exception):
+    except AssertionError, Exception:
         sys.stdout = old_stdout
         return False
 
