@@ -32,20 +32,11 @@
 #   ---
 
 
-# Write your code in the function labeled `problem()` below
+# Write your code in the function labeled `answer()` below
 ###########################################################
 
 
 def answer() -> None:
-    """
-    This function prints 'Hello Field Engineers'
-
-    Args:
-        None
-    Return:
-        None
-    """
-
     ## Write your code here
 
     return

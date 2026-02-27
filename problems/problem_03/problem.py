@@ -28,7 +28,7 @@
 #   None
 
 
-# Write your code in the function labeled `problem()` below
+# Write your code in the function labeled `answer()` below
 ###########################################################
 
 

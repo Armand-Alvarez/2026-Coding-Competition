@@ -31,10 +31,9 @@
 #   None
 
 
-# Write your code in the function labeled `problem()` below
+# Write your code in the function labeled `answer()` below
 ###########################################################
 
 
-def answer(inp) -> None:
-
+def answer(full_string: str) -> str:
     pass
