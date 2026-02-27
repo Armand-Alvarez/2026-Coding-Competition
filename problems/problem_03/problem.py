@@ -32,16 +32,5 @@
 ###########################################################
 
 
-def answer(inp) -> None:
-    inp = inp.replace("a", "")
-    inp = inp.replace("e", "")
-    inp = inp.replace("i", "")
-    inp = inp.replace("o", "")
-    inp = inp.replace("u", "")
-    inp = inp.replace("A", "")
-    inp = inp.replace("E", "")
-    inp = inp.replace("I", "")
-    inp = inp.replace("O", "")
-    inp = inp.replace("U", "")
-
-    return inp
+def answer(troll_comments: str) -> str:
+    pass
