@@ -78,29 +78,4 @@
 
 
 def answer(number: int) -> bool:
-    dig = get_dig(number)
-    repeats = []
-    print("----")
-    print(f"input = {number}")
-
-    while True:
-        s = 0
-        for d in dig:
-            s += d * d
-        print(s)
-        if s == 1:
-            return True
-        else:
-            if s in repeats:
-                return False
-        repeats.append(s)
-        dig = get_dig(s)
-
-
-def get_dig(num):
-    a = []
-    s = str(num)
-    l = list(s)
-    for d in l:
-        a.append(int(d))
-    return a
+    pass
