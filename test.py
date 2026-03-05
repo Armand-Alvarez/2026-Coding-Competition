@@ -11,8 +11,9 @@ from tests.test_02 import test as t2
 from tests.test_03 import test as t3
 from tests.test_04 import test as t4
 from tests.test_05 import test as t5
+from tests.test_06 import test as t6
 
-all_tests = [t1, t2, t3, t4, t5]
+all_tests = [t1, t2, t3, t4, t5, t6]
 
 
 def run_tests(problem_number: int = None) -> None:
